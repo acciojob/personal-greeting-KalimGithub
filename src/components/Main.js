@@ -9,7 +9,7 @@ const Main = () => {
         <div className='main'>
             <p>Enter your name:</p>
             <input type='text' placeholder='' value={search} onChange={(e)=>{setSearch(e.target.value)}}/>
-            {search&& <p>Helloo {search}!</p>}
+            {search&& <p>Hello {search}!</p>}
         </div>
     )
 }
